@@ -1,0 +1,208 @@
+@import url("https://fonts.googleapis.com/css2?family=Sofia&display=swap");
+
+@font-face {
+  font-family: Bodega Script;
+  src: url(../fonts/bodega-script.otf);
+}
+
+:root {
+  /* variaveis */
+  --fundo: #f9f9f9;
+  --texto: #4d4d4d;
+  --destaque: #f95d82;
+}
+
+body {
+  background: var(--fundo);
+  color: var(--texto);
+}
+
+header {
+  width: 100%;
+  margin: 0 auto;
+}
+
+header .container {
+  animation: 1s ease-in 0s 1 slideInFromUP;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+header nav {
+  padding: 2.18rem 0;
+  display: flex;
+  align-items: center;
+  padding-bottom: 1.11rem;
+}
+
+header nav a {
+  transition: color 0.4s;
+  font-size: 1rem;
+  padding: 2.11rem 2.4rem;
+  text-decoration: none;
+  color: var(--texto);
+}
+
+header #logo {
+  margin-right: 1.2rem;
+}
+
+hr {
+  animation: 3s ease-out 0s 1 slideInFromHR;
+  width: 43%;
+  margin: 0 auto;
+  color: var(--texto);
+}
+
+main .main-apresentation {
+  margin: 4rem 0;
+  display: flex;
+  align-items: center;
+}
+
+.apresentation-text {
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+  width: 50%;
+  float: left;
+  text-align: right;
+  padding-right: 5rem;
+}
+
+.apresentation-img {
+  animation: 1s ease-out 0s 1 slideInFromRight;
+  width: 692px;
+  display: flex;
+}
+
+main .apresentation-title {
+  font-family: "Bodega Script";
+  color: var(--destaque);
+  font-size: 100px;
+  line-height: 145px;
+}
+
+main .apresentation-subtitle {
+  margin-top: -3rem;
+  line-height: 94.56px;
+  font-family: "Sofia", cursive;
+  font-size: 60px;
+}
+
+main .apresentation-description {
+  font-family: "Poppins";
+  font-style: italic;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 39px;
+  margin-top: -1rem;
+}
+
+.apresentation-img .img {
+  display: inline;
+  width: 692px;
+  height: 609px;
+  transition: 0.4s;
+}
+
+section .title-section {
+  display: flex;
+  justify-content: center;
+}
+
+section .item1 {
+  display: flex;
+  background: url("/images/Fundo-item-1.svg") no-repeat;
+  background-size: 98% auto;
+}
+
+.item-text {
+  width: 60rem;
+  padding-top: 0rem;
+}
+
+.item-title {
+  padding-top: 1.2rem;
+  font-family: "Bodega Script";
+  font-size: 12.5rem;
+}
+
+.item-description {
+  margin: -5rem 0;
+  text-align: justify;
+  font-size: 1.25em;
+  font-weight: 400;
+}
+
+.item1 img {
+  width: 30%;
+  padding: 5% 5% 0% 5%;
+}
+
+.item-title,
+.item-description {
+  color: var(--fundo);
+}
+
+footer {
+  padding: 1.5rem;
+  margin-top: 2rem;
+  background: var(--texto);
+  color: var(--fundo);
+  display: flex;
+  justify-content: center;
+}
+
+/* Hovers */
+
+.img:hover {
+  width: 720px;
+  height: 650px;
+}
+
+a:hover {
+  padding: 0.8rem;
+  border-radius: 1rem;
+  background: var(--destaque);
+  color: var(--fundo);
+}
+
+/* Animações */
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-10%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(20%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes slideInFromUP {
+  0% {
+    transform: translateY(-20%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+@keyframes slideInFromHR {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 43%;
+  }
+}
