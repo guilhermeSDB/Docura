@@ -187,22 +187,49 @@ footer a {
     color: var(--fundo);
 }
 
-  footer #footer{
+footer #footer{
       display: flex;
 }
 
 #footer a{
-    display: inline-flex;
+    display: block;
 }
 
-#footer div{
-    margin: 2rem;
+#footer img{
+    display: inline;
+    margin: .5rem;
+}
+
+.footer-contato{
+    width: 20rem;
+}
+
+.footer-contato div{
+    display: flex;
+}
+
+.footer-paginas, .footer-designby, .footer-sociais, .footer-contato{
+    margin: 2rem 2rem;
+}
+
+.footer-paginas, .footer-designby, .footer-sociais{
+    width: 10rem;
+    margin: 2rem 2rem;
+}
+
+.footer-sociais{
+    width: 15rem;    
 }
 
 #footer div h1{
-    font-size: 1.87rem;
+    padding-bottom: 1.7rem;
+    font-size: 1.25rem;
     font-weight: 700;
     text-align: left;
+}
+
+.footer-final-text{
+    border: 1px solid red;
 }
 
 /* Hovers */
