@@ -124,13 +124,24 @@
     </main>
 
     <!-- Imports Javascripts -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-smoove/0.2.10/jquery.smoove.min.js"></script>
-    <script src=""></script>
-    <script
-  src="https://code.jquery.com/jquery-3.6.0.min.js"
-  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-  crossorigin="anonymous"></script>
+    <script src="js/jquery.smoove.js" ></script> 
+    <script>
+        $(".item1").smoove({
+        offset  : '40%',
+        moveX   : '200px',
+        moveY   : '200px',});
+
+        $(".item2").smoove({
+        offset  : '40%',
+        moveY   : '100px',
+        moveX   : '-100px',});
+
+        $(".item3").smoove({
+        offset  : '40%',
+        moveY   : '-200px',});
+    </script>
     
 </body>
 </html>
