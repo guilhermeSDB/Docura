@@ -123,13 +123,13 @@ section .item1 {
 section .item2 {
     margin: 1.5rem 0;
     display: flex;
-    background: url("/images/fundo-item2.SVG") no-repeat;
+    background: url("/images/Fundo-item2.SVG") no-repeat;
     background-size: 100% auto;
 }
 
 section .item3 {
     display: flex;
-    background: url("/images/fundo-item3.SVG") no-repeat;
+    background: url("images/Fundo-item3.svg") no-repeat;
     background-size: 100% auto;
   }
 
