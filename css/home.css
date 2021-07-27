@@ -41,7 +41,8 @@ header nav {
 header nav a {
   transition: color 0.4s;
   font-size: 1rem;
-  padding: 2.11rem 2.4rem;
+  padding: 0.5rem 1.5rem;
+  margin: 2.11rem 2.4rem;
   text-decoration: none;
   color: var(--texto);
 }
@@ -177,6 +178,33 @@ footer {
   justify-content: center;
 }
 
+
+footer a {
+    font-size: 1.56rem;
+    transition: color 0.4s;
+    font-size: 1rem;
+    text-decoration: none;
+    color: var(--fundo);
+}
+
+  footer #footer{
+      display: flex;
+}
+
+#footer a{
+    display: inline-flex;
+}
+
+#footer div{
+    margin: 2rem;
+}
+
+#footer div h1{
+    font-size: 1.87rem;
+    font-weight: 700;
+    text-align: left;
+}
+
 /* Hovers */
 
 .img:hover {
@@ -184,8 +212,7 @@ footer {
   height: 650px;
 }
 
-a:hover {
-  padding: 0.8rem;
+nav a:hover {
   border-radius: 1rem;
   background: var(--destaque);
   color: var(--fundo);
@@ -299,4 +326,8 @@ a:hover {
           margin: 0 22rem;
       }
 
+}
+
+@media (max-width: 600px){
+    
 }
