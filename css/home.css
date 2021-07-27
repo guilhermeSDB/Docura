@@ -116,7 +116,7 @@ section .title-section {
 section .item1 {
   display: flex;
   margin: 1.5rem 0;
-  background-image: url('./images/fundo-item1.svg') no-repeat;
+  background-image: url('../images/fundo-item1.svg') no-repeat;
   background-size: 98% auto;
 }
 
