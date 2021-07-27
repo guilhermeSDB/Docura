@@ -78,7 +78,7 @@ main .main-apresentation {
 }
 
 main .apresentation-title {
-    animation: 1s ease-out 1 slideInFromLeft;
+  animation: 1s ease-out 1 slideInFromLeft;
   font-family: "Bodega Script";
   color: var(--destaque);
   font-size: 100px;
@@ -86,8 +86,8 @@ main .apresentation-title {
 }
 
 main .apresentation-subtitle {
-    animation: 1s ease-out 1s 1 slideInFromLeft;
-    animation-delay: 30ms;
+  animation: 1s ease-out 1s 1 slideInFromLeft;
+  animation-delay: 30ms;
   margin-top: -3rem;
   line-height: 94.56px;
   font-family: "Sofia", cursive;
@@ -123,21 +123,21 @@ section .item1 {
 }
 
 section .item2 {
-    margin: 1.5rem 0;
-    display: flex;
-    background: url("../images/2.svg") no-repeat;
-    background-size: 100% auto;
+  margin: 1.5rem 0;
+  display: flex;
+  background: url("../images/2.svg") no-repeat;
+  background-size: 100% auto;
 }
 
 section .item3 {
-    display: flex;
-    background: url("../images/3.svg") no-repeat;
-    background-size: 100% auto;
-  }
+  display: flex;
+  background: url("../images/3.svg") no-repeat;
+  background-size: 100% auto;
+}
 
-  #Items img{
-    cursor: pointer;
-  }
+#Items img {
+  cursor: pointer;
+}
 
 .item-text {
   width: 60rem;
@@ -162,13 +162,13 @@ section .item3 {
 }
 
 .item2 img {
-    width: 50%;
-  }
+  width: 50%;
+}
 
 .item2 .item-title {
-    font-family: "Bodega Script";
-    font-size: 12.5rem;
-  }
+  font-family: "Bodega Script";
+  font-size: 12.5rem;
+}
 
 .item-title,
 .item-description {
@@ -184,58 +184,62 @@ footer {
   justify-content: center;
 }
 
-
 footer a {
-    font-size: 1.56rem;
-    transition: color 0.4s;
-    font-size: 1rem;
-    text-decoration: none;
-    color: var(--fundo);
+  font-size: 1.56rem;
+  transition: color 0.4s;
+  font-size: 1rem;
+  text-decoration: none;
+  color: var(--fundo);
 }
 
-footer #footer{
-      display: flex;
+footer #footer {
+  display: flex;
 }
 
-#footer a{
-    display: block;
+#footer a {
+  display: block;
 }
 
-#footer img{
-    display: inline;
-    margin: .5rem;
+#footer img {
+  display: inline;
+  margin: 0.5rem;
 }
 
-.footer-contato{
-    width: 20rem;
+.footer-contato {
+  width: 20rem;
 }
 
-.footer-contato div{
-    display: flex;
+.footer-contato div {
+  display: flex;
 }
 
-.footer-paginas, .footer-designby, .footer-sociais, .footer-contato{
-    margin: 2rem 2rem;
+.footer-paginas,
+.footer-designby,
+.footer-sociais,
+.footer-contato {
+  margin: 2rem 2rem;
 }
 
-.footer-paginas, .footer-designby, .footer-sociais{
-    width: 10rem;
-    margin: 2rem 2rem;
+.footer-paginas,
+.footer-designby,
+.footer-sociais {
+  width: 10rem;
+  margin: 2rem 2rem;
 }
 
-.footer-sociais{
-    width: 15rem;    
+.footer-sociais {
+  width: 15rem;
 }
 
-#footer div h1{
-    padding-bottom: 1.7rem;
-    font-size: 1.25rem;
-    font-weight: 700;
-    text-align: left;
+#footer div h1 {
+  padding-bottom: 1.7rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+  text-align: left;
 }
 
-.footer-final-text{
-    border: 1px solid red;
+.footer-final-text {
+  border: 1px solid red;
 }
 
 /* Hovers */
@@ -290,77 +294,73 @@ nav a:hover {
 }
 
 @keyframes slideInFromHRMedia {
-    0% {
-      width: 0%;
-    }
-    100% {
-      width: 70%;
-    }
+  0% {
+    width: 0%;
   }
-
+  100% {
+    width: 70%;
+  }
+}
 
 /* Media queries */
 
 @media (max-width: 1980px) {
+  header nav {
+    padding: 0rem 0;
+    display: flex;
+    align-items: center;
+    padding-bottom: 0rem;
+  }
 
-    header nav {
-        padding: 0rem 0;
-        display: flex;
-        align-items: center;
-        padding-bottom: 0rem;
-      }
+  main .apresentation-title {
+    font-size: 6.25rem;
+  }
 
-    main .apresentation-title {
-        font-size: 6.25rem;
-      }
+  main .apresentation-subtitle {
+    font-size: 2.5rem;
+  }
 
-    main .apresentation-subtitle {
-        font-size: 2.5rem;
-      }
+  main .apresentation-description {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
 
-      main .apresentation-description{
-        font-size: 1rem;
-        line-height: 1.5rem;
-      }
+  hr {
+    animation: 3s ease-out 0s 1 slideInFromHRMedia;
+    width: 70%;
+  }
 
-      hr{
-        animation: 3s ease-out 0s 1 slideInFromHRMedia;
-          width: 70%;
-      }
+  .apresentation-img .img {
+    width: 40.25rem;
+    height: 36.063rem;
+  }
 
-      .apresentation-img .img {
-        width: 40.25rem;
-        height: 36.063rem;
-      }
+  .item-title {
+    font-size: 100px !important;
+  }
 
-      .item-title{
-          font-size: 100px!important;
-      }
+  .item-description {
+    width: 80%;
+    margin: -2.5rem 0;
+    text-align: justify;
+    font-size: 0.8rem;
+    font-weight: 400;
+  }
 
-      .item-description {
-        width: 80%;
-        margin: -2.5rem 0;
-        text-align: justify;
-        font-size: 0.8rem;
-        font-weight: 400;
-      }
+  .item2 .item-text {
+    margin-left: 10rem;
+  }
 
-      .item2 .item-text{
-          margin-left: 10rem;
-      }
+  .item2 img {
+    width: 38.25rem;
+    height: 30.063rem;
+  }
 
-      .item2 img{
-        width: 38.25rem;
-        height: 30.063rem;
-      }
-
-      .item3 img{
-          width: 40%;
-          margin: 0 30rem;
-      }
-
+  .item3 img {
+    width: 40%;
+    margin: 0 35rem;
+  }
 }
 
-@media (max-width: 600px){
-    
+@media (max-width: 600px) {
 }
