@@ -110,9 +110,19 @@ main .apresentation-description {
   transition: 0.4s;
 }
 
-section .title-section {
+.title-section {
+  align-items: center;
   display: flex;
   justify-content: center;
+}
+
+#icon-mouse {
+  display: flex;
+  margin: auto auto 5rem auto;
+}
+
+.icone-mouse {
+  padding-top: 2rem;
 }
 
 section .item1 {
@@ -299,6 +309,17 @@ nav a:hover {
   }
   100% {
     width: 70%;
+  }
+}
+
+@keyframes ToptoBottom {
+  0% {
+    bottom: 0%;
+  }
+  40% {
+  }
+  100% {
+    bottom: 70%;
   }
 }
 
