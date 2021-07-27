@@ -116,20 +116,20 @@ section .title-section {
 section .item1 {
   display: flex;
   margin: 1.5rem 0;
-  background: url("/images/Fundo-item1.svg") no-repeat;
+  background: url("/images/fundo-item2.svg") no-repeat;
   background-size: 98% auto;
 }
 
 section .item2 {
     margin: 1.5rem 0;
     display: flex;
-    background: url("/images/fundo-item2.svg") no-repeat;
+    background: url("/images/Fundo-item2.svg") no-repeat;
     background-size: 100% auto;
 }
 
 section .item3 {
     display: flex;
-    background: url("/images/fundo-item3.svg") no-repeat;
+    background: url("/images/Fundo-item3.svg") no-repeat;
     background-size: 100% auto;
   }
 
