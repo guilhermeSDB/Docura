@@ -55,7 +55,7 @@ hr {
   animation: 3s ease-out 0s 1 slideInFromHR;
   width: 43%;
   margin: 0 auto;
-  color: var(--texto);
+  border: 0.1px solid #f95d82;
 }
 
 main .main-apresentation {
@@ -116,20 +116,20 @@ section .title-section {
 section .item1 {
   display: flex;
   margin: 1.5rem 0;
-  background: url("/Images/Fundo-item-1.svg") no-repeat;
+  background: url("/images/Fundo-item-1.svg") no-repeat;
   background-size: 98% auto;
 }
 
 section .item2 {
     margin: 1.5rem 0;
     display: flex;
-    background: url("/Images/Fundo-item2.svg") no-repeat;
+    background: url("/images/Fundo-item2.svg") no-repeat;
     background-size: 100% auto;
 }
 
 section .item3 {
     display: flex;
-    background: url("/Images/Fundo-item3.svg") no-repeat;
+    background: url("/images/Fundo-item3.svg") no-repeat;
     background-size: 100% auto;
   }
 
