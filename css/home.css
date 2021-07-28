@@ -325,7 +325,37 @@ nav a:hover {
 
 /* Media queries */
 
-@media (max-width: 1400px) {
+@media screen and (max-width: 1920px) {
+    .item-title {
+        font-size: 6.25rem !important;
+      }
+    
+      .item-description {
+        width: 80%;
+        margin: -2.5rem 0;
+        text-align: justify;
+        font-size: 1.3em;
+        font-weight: 400;
+      }
+    
+      .item2 .item-text {
+        margin-left: 10rem;
+      }
+    
+      .item2 img {
+        width: 50.25rem;
+        height: 37.063rem;
+      }
+
+    
+      .item3 img {
+        width: 80rem;
+        margin: 0 34rem;
+      }
+
+}
+
+@media screen and (max-width: 1366px) {
   header nav {
     padding: 0rem 0;
     display: flex;
@@ -334,13 +364,12 @@ nav a:hover {
   }
 
   
-
   main .apresentation-title {
     font-size: 6.25rem;
   }
 
   main .apresentation-subtitle {
-    font-size: 2.5rem;
+    font-size: 1.5rem;
   }
 
   main .apresentation-description {
@@ -360,7 +389,7 @@ nav a:hover {
   }
 
   .item-title {
-    font-size: 100px !important;
+    font-size: 6.25rem !important;
   }
 
   .item-description {
@@ -384,7 +413,18 @@ nav a:hover {
     width: 40%;
     margin: 0 22rem;
   }
+
+  
 }
 
-@media (max-width: 600px) {
+@media screen and (max-width: 600px){
+    header nav, .apresentation-img {
+        display: none;
+    }
+
+    .apresentation-text{
+        width: 100%;
+    }
+
+
 }
