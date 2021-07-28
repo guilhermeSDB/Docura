@@ -423,7 +423,20 @@ nav a:hover {
     }
 
     .apresentation-text{
-        width: 100%;
+        width: 90%;
+    }
+
+    h1.apresentation-title{
+        font-size: 5rem;
+    }
+
+    h1.apresentation-subtitle{
+        font-size: 1.4rem;
+    }
+
+    h1.apresentation-description{
+        font-size:1rem;
+        text-align: justify;
     }
 
 
