@@ -325,13 +325,15 @@ nav a:hover {
 
 /* Media queries */
 
-@media (max-width: 1980px) {
+@media (max-width: 1400px) {
   header nav {
     padding: 0rem 0;
     display: flex;
     align-items: center;
     padding-bottom: 0rem;
   }
+
+  
 
   main .apresentation-title {
     font-size: 6.25rem;
@@ -352,6 +354,7 @@ nav a:hover {
   }
 
   .apresentation-img .img {
+      /* border: 1px solid red; */
     width: 40.25rem;
     height: 36.063rem;
   }
@@ -379,7 +382,7 @@ nav a:hover {
 
   .item3 img {
     width: 40%;
-    margin: 0 35rem;
+    margin: 0 22rem;
   }
 }
 
