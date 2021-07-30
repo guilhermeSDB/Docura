@@ -104,14 +104,13 @@ main .apresentation-description {
   font-style: italic;
   font-weight: normal;
   font-size: 1.25rem;
-  line-height: 39px;
   margin-top: -1rem;
 }
 
 .apresentation-img .img {
   display: inline;
   width: 50vw;
-  height: 38.063rem;
+  height: 38vw;
   transition: 0.4s;
 }
 
