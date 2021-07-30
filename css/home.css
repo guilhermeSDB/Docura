@@ -337,112 +337,44 @@ nav a:hover {
 
 /* Media queries */
 
-/* @media screen and (max-width: 1920px) {
-  .item-title {
-    font-size: 6.25rem !important;
-  }
-
-  .item-description {
-    width: 80%;
-    margin: -2.5rem 0;
-    text-align: justify;
-    font-size: 1.3em;
-    font-weight: 400;
-  }
-
-  .item2 .item-text {
-    margin-left: 10rem;
-  }
-
-  .item2 img {
-    width: 50.25rem;
-    height: 37.063rem;
-  }
-
-  .item3 img {
-    width: 80rem;
-    margin: 0 34rem;
-  }
-} */
-
-/* @media screen and (max-width: 1366px) {
-  header nav {
-    padding: 0rem 0;
-    display: flex;
-    align-items: center;
-    padding-bottom: 0rem;
-  }
-
-  main .apresentation-title {
-    font-size: 6.25rem;
-  }
-
-  main .apresentation-subtitle {
-    font-size: 2.7rem;
-  }
-
-  main .apresentation-description {
-    font-size: 1rem;
-    line-height: 1.5rem;
-  }
-
-  hr {
-    animation: 3s ease-out 0s 1 slideInFromHRMedia;
-    width: 70%;
-  }
-
-  .apresentation-img .img {
-    width: 40.25rem;
-    height: 36.063rem;
-  } */
-
-  /* .item-title {
-    font-size: 6.25rem !important;
-  }
-
-  .item-description {
-    width: 80%;
-    margin: -2.5rem 0;
-    text-align: justify;
-    font-size: 0.8rem;
-    font-weight: 400;
-  }
-
-  .item2 .item-text {
-    margin-left: 10rem;
-  }
-
-  .item2 img {
-    width: 38.25rem;
-    height: 30.063rem;
-  }
-
-  .item3 img {
-    width: 40%;
-    margin: 0 22rem;
-  }
-} */
-/* 
 @media screen and (max-width: 600px) {
+
+  body{
+    width: 100wv;
+  }
   header nav,
   .apresentation-img {
     display: none;
   }
 
   .apresentation-text {
-    width: 90%;
+    width: 100vw;
   }
 
   h1.apresentation-title {
-    font-size: 5rem;
+    font-size: 20vw;
   }
 
   h1.apresentation-subtitle {
-    font-size: 1.4rem;
+    width: 100vw;
+    font-size: 8vw;
+    justify-content: center;
+    display: flex;
   }
 
   h1.apresentation-description {
-    font-size: 1rem;
-    text-align: justify;
+    width: 100vw;
+    font-size: 3vw;
+    text-align: center;
+    justify-content: center;
   }
-} */
+
+  #footer, footer{
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .item-description{
+    margin: -1rem 0;
+  }
+} 
