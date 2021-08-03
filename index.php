@@ -1,6 +1,8 @@
+<?php include_once"produto.php" ?>
+
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -95,47 +97,48 @@
             </div>
         </section>
 
+        <h1>
+            
+            <span class="title-section" style="padding:3rem">
+                Todos os produtos
+            </span>
+            <hr class="separador" style="margin-bottom:3rem; width: 55vw;">
+        </h1>
+
 
         <section>
-            <div class="owl-carousel owl-theme">
-                <div class="item">
-                    <section class="section">
-                        <div class="container">
-                          <div class="grid">
-                            <article class="card">
-                                <img class="card__image" src="images/Receita-de-bolo-de-pote-para-presentear-e-vender.-Fonte-Craftlog-800x840.jpg" />
-                                <div class="card__data">
-                                  <div class="card__info">
-                                    <h2>Nombre Comida</h2>
-                                    <p>Descripcion de la comida, con ingredientes</p>
-                                  </div>
-                                  <h3 class="card__price">$7.50</h3>
-                                  <button class="card__add">+</button>
+            <div class="owl-carousel o wl-theme">
+                <?php foreach($produtos as $item): ?>
+                    <form action="produto.php" method="POST">
+                        <div class="item">
+                            <section class="section">
+                                <div class="container">
+                                    <div class="grid">
+                                        <article class="card">
+                                            <input type="hidden" name="id" value="<?= $item["id"] ?>">                                                
+                                            </h2>
+                                            <img name="img" class="card__image" src="<?= $item["imgPath"] ?>" />
+                                            <div class="card__data">
+                                                <div class="card__info">
+                                                    <h2 name="nome" >
+                                                        <?= $item['nome'] ?>
+                                                    </h2>
+                                                    <p name="descricao" >
+                                                        <?= $item['descricao'] ?>
+                                                    </p>
+                                                </div>
+                                                <h3 name="preco" class="card__price">
+                                                    R$<?= $item['preco'] ?>
+                                                </h3>
+                                                <button type="submit" class="card__add">+</button>
+                                            </div>
+                                        </article>                            
+                                    </div>
                                 </div>
-                            </article>                            
-                          </div>
+                            </section>
                         </div>
-                      </section>
-                </div>
-                <div class="item">
-                    <section class="section">
-                        <div class="container">
-                          <div class="grid">
-                            <article class="card">
-                                <img class="card__image" src="https://i1.wp.com/cursobolonopotegourmet.com/wp-content/uploads/2021/04/AdobeStock_283759099-1-1.png" />
-                                <div class="card__data">
-                                  <div class="card__info">
-                                    <h2>Bolo de pote</h2>
-                                    <p>Bolo de pote de chocolate</p>
-                                  </div>
-                                  <h3 class="card__price">R$7.50</h3>
-                                  <button class="card__add">+</button>
-                                </div>
-                            </article>                            
-                          </div>
-                        </div>
-                      </section>
-                </div>                
+                    </form>
+                <?php endforeach; ?> 
             </div>
         </section>
 

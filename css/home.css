@@ -77,10 +77,12 @@ header #logo {
 }
 
 hr.separador{
+  border: 0;
+  height: 3px;
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #f95d82, #f0f0f0);
   animation: 3s ease-out 0s 1 slideInFromHR;
   width: 70vw;
   margin: 0 auto;
-  border: 0.1px solid #f95d82;
 }
 
 #Items{
@@ -487,8 +489,8 @@ p {
 }
 .card__image {
   position: absolute;
-  max-width: 130%;
-  left: -15%;
+  max-width: 110%;
+  left: -5%;
   right: 0;
   width: auto!important;
   margin: 0 auto;
@@ -539,7 +541,7 @@ p {
   right: 0;
   bottom: 0;
   position: absolute;
-  background-color: #222222;
+  background-color: #f95d82;
   border: none;
   color: #fff;
   border-top-left-radius: 15px;
