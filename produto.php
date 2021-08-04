@@ -33,7 +33,7 @@ $id = $_POST['id'];
 </head>
 
 <body>
-    <a href="index.php">Voltar</a>
+    <a href="index.php#todos-produtos">Voltar</a>
     <div class="card">
         <div class="card-image-container">
             <img src="<?= $produtos[$id]['imgPath'] ?>" alt="" class="card-image">

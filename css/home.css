@@ -541,11 +541,11 @@ p {
   margin-bottom: 10px;
 }
 .card__info h2 {
-  font-size: 14px;
+  font-size: 1.7rem;
   font-weight: 800;
 }
 .card__info p {
-  font-size: 10px;
+  font-size: 1rem;
   line-height: 14px;
   color: #a2a2a2;
 }
@@ -554,9 +554,9 @@ p {
   grid-template: 30px / 1fr 35px;
 }
 .card__price {
-  height: 30px;
+  height: 2rem;
   padding: 0 10px 0 20px;
-  font-size: 14px;
+  font-size: 1.2rem;
   display: flex;
   align-items: center;
   font-weight: 800;
