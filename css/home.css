@@ -14,7 +14,7 @@
 
 body {
   width: 100vw;
-  overflow-x: hidden; 
+  overflow-x: hidden;
   background: var(--fundo);
   color: var(--texto);
 }
@@ -25,7 +25,7 @@ header {
 }
 
 header .container {
-  animation: 1s ease-in 0s 1 slideInFromUP;
+  animation: 3s ease-in 0s 1 slideInFromUP;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -60,7 +60,7 @@ hr {
   border: 0.1px solid #f95d82;
 }
 
-#Items{
+#Items {
   width: 100vw;
 }
 
@@ -77,21 +77,21 @@ main .main-apresentation {
 }
 
 .apresentation-img {
-  animation: 1s ease-out 0s 1 slideInFromRight;
+  animation: 3s ease-out 0s 1 slideInFromRight;
   width: 50vw;
   display: flex;
 }
 
 main .apresentation-title {
-  animation: 1s ease-out 1 slideInFromLeft;
+  animation: 3s ease-out 1 slideInFromLeft;
   font-family: "Bodega Script";
   color: var(--destaque);
-  font-size:6vw;
+  font-size: 6vw;
   line-height: 145px;
 }
 
 main .apresentation-subtitle {
-  animation: 1s ease-out 1s 1 slideInFromLeft;
+  animation: 2s ease-out 1s 1 slideInFromLeft;
   animation-delay: 30ms;
   margin-top: -3rem;
   line-height: 94.56px;
@@ -110,7 +110,7 @@ main .apresentation-description {
 .apresentation-img .img {
   display: inline;
   width: 50vw;
-  height: 38vw;
+  height: 30vw;
   transition: 0.4s;
 }
 
@@ -155,7 +155,8 @@ section .item3 {
   cursor: pointer;
 }
 
-.item-text, .item img{
+.item-text,
+.item img {
   height: 30vw;
 }
 
@@ -186,7 +187,7 @@ section .item3 {
   margin: 5vw 6vw 0 7vw;
 }
 
-.item3 img{
+.item3 img {
   width: 40vw;
   margin-left: 26vw;
   height: 35vw;
@@ -338,12 +339,11 @@ nav a:hover {
 /* Media queries */
 
 @media screen and (max-width: 600px) {
-
-  body{
+  body {
     width: 100wv;
   }
 
-  .title-section{
+  .title-section {
     font-size: 6vw;
   }
 
@@ -352,7 +352,10 @@ nav a:hover {
     display: none;
   }
 
-  .apresentation-title, .apresentation-subtitle, .apresentation-description , .apresentation-title{
+  .apresentation-title,
+  .apresentation-subtitle,
+  .apresentation-description,
+  .apresentation-title {
     width: 100vw;
   }
 
@@ -374,25 +377,26 @@ nav a:hover {
     justify-content: center;
   }
 
-  #footer, footer{
+  #footer,
+  footer {
     flex-direction: column;
     justify-content: center;
   }
 
-  .footer-contato{
+  .footer-contato {
     width: 20vw;
   }
 
-  .footer-contato .imgs{
+  .footer-contato .imgs {
     display: block;
   }
 
-  footer .imgs{
+  footer .imgs {
     width: 50vw;
     display: flex;
   }
 
-  .item-description{
-    margin: -0.5rem 0;;
+  .item-description {
+    margin: -0.5rem 0;
   }
-} 
+}
