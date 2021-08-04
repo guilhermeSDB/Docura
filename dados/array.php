@@ -25,10 +25,24 @@ $produtos = [
     ],
     '4' =>[
         'id' => 4,
-        'imgPath' => 'images/cupcake2.png',
+        'imgPath' => '../images/cupcake2.png',
         'nome' => 'Cupcake de Chocolate 4',
         'descricao' => 'Cupcake feito com delicioso chocolate',
         'preco' => '15.50',   
+    ],
+    '5' =>[
+        'id' => 5,
+        'imgPath' => '../images/images.jpg',
+        'nome' => 'Cupcake 5',
+        'descricao' => 'Cupcake ao leite',
+        'preco' => '14.50',   
+    ],
+    '6' =>[
+        'id' => 6,
+        'imgPath' => '../images/bolo-no-pote.png',
+        'nome' => 'Bolo no pote 6',
+        'descricao' => 'Bolo de coco, com chocolate',
+        'preco' => '10.20',   
     ],
 ]
    

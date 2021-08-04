@@ -1,6 +1,6 @@
 <?php 
 
-include_once "array.php";
+include_once "../dados/array.php";
 
 $id = $_POST['id'];
 
@@ -20,7 +20,7 @@ $id = $_POST['id'];
     <link rel="icon" type="imagem/png" href="images/cupcake.png" />
     <title>Produto</title>
 
-    <link rel="stylesheet" href="css/produto.css">
+    <link rel="stylesheet" href="../css/produto.css">
 
 </head>
 <body>
@@ -33,7 +33,7 @@ $id = $_POST['id'];
 </head>
 
 <body>
-    <a href="index.php#todos-produtos">Voltar</a>
+<a href="http://localhost:81/index.php">Voltar</a>
     <div class="card">
         <div class="card-image-container">
             <img src="<?= $produtos[$id]['imgPath'] ?>" alt="" class="card-image">
