@@ -6,6 +6,10 @@
   src: url(../fonts/bodega-script.otf);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   /* variaveis */
   --fundo: #f9f9f9;

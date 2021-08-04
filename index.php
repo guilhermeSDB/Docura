@@ -33,6 +33,7 @@
             <nav>
                 <span id="logo" class="iconify" data-inline="false" data-icon="mdi:cupcake" style="color: #f95d82; font-size: 48px;"></span>
                     <a href="#">Home </a> 
+                    <a href="#todos-produtos">Produtos</a> 
                     <a href="#">Quem Somos</a> 
                     <a href="#">Contato</a>
             </nav>
@@ -106,7 +107,7 @@
         </h1>
 
 
-        <section>
+        <section id="todos-produtos">
             <div class="owl-carousel o wl-theme">
                 <?php foreach($produtos as $item): ?>
                     <form action="produto.php" method="POST">
