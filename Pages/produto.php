@@ -34,65 +34,63 @@ $id = $_POST['id'];
 
 <body>
 <a href="http://localhost:81/index.php">Voltar</a>
-    <div class="card">
-        <div class="card-image-container">
-            <img src="<?= $produtos[$id]['imgPath'] ?>" alt="" class="card-image">
-        </div>
+<div class="card">
+    <div class="card-image-container">
+        <img src="<?= $produtos[$id]['imgPath'] ?>" alt="" class="card-image">
+    </div>
 
-        <div class="card-info-container">
-            <h1 class="card-info-heading"><?= $produtos[$id]['nome'] ?><span class="material-icons dish-type">
-                adjust
-                </span></h1>
-            <br/>
-            <p class="card-info-para">
-            <?= $produtos[$id]['descricao'] ?>
-            </p>
-            <br/>
+    <div class="card-info-container">
+        <h1 class="card-info-heading"><?= $produtos[$id]['nome'] ?><span class="material-icons dish-type">
+            adjust
+            </span></h1>
+        <br/>
+        <p class="card-info-para">
+        <?= $produtos[$id]['descricao'] ?>
+        </p>
+        <br/>
 
-            <div class="card-stats-container">
-                <div class="card-stats">
-                    <h1 class="stats-heading">
-                        Calorias
-                    </h1>
-                    <p class="stats-para">
-                        289
-                    </p>
-                </div>
-                <div class="card-stats">
-                    <h1 class="stats-heading">
-                        Gorduras
-                    </h1>
-                    <p class="stats-para">
-                        21g
-                    </p>
-                </div>
-                <div class="card-stats">
-                    <h1 class="stats-heading">
-                        Carbs
-                    </h1>
-                    <p class="stats-para">
-                        2g
-                    </p>
-                </div>
-
-                <div class="card-stats">
-                    <h1 class="stats-heading">
-                        Proteinas
-                    </h1>
-                    <p class="stats-para">
-                        28g
-                    </p>
-                </div>
-
-                
+        <div class="card-stats-container">
+            <div class="card-stats">
+                <h1 class="stats-heading">
+                    Calorias
+                </h1>
+                <p class="stats-para">
+                    289
+                </p>
             </div>
-            <br/>
-            <button class="btn"><span class="material-icons">
-                add_shopping_cart
-                </span></button>
-        </div>
+            <div class="card-stats">
+                <h1 class="stats-heading">
+                    Gorduras
+                </h1>
+                <p class="stats-para">
+                    21g
+                </p>
+            </div>
+            <div class="card-stats">
+                <h1 class="stats-heading">
+                    Carbs
+                </h1>
+                <p class="stats-para">
+                    2g
+                </p>
+            </div>
 
-    </div>    
+            <div class="card-stats">
+                <h1 class="stats-heading">
+                    Proteinas
+                </h1>
+                <p class="stats-para">
+                    28g
+                </p>
+            </div>                    
+        </div>
+        <br/>
+        <button class="btn"><span class="material-icons">
+            add_shopping_cart
+            </span></button>
+    </div>
+</div>
+        
 </body>
 
 </html>

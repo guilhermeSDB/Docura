@@ -3,7 +3,7 @@
 $produtos = [
     '1' => [
         'id' => 1,
-        'imgPath' => 'images/Receita-de-bolo-de-pote-para-presentear-e-vender.-Fonte-Craftlog-800x840.jpg',
+        'imgPath' => '../images/Receita-de-bolo-de-pote-para-presentear-e-vender.-Fonte-Craftlog-800x840.jpg',
         'nome' => 'Bolo de pote 1',
         'descricao' => 'Bolo de pote de morango',
         'preco' => '7.50',
