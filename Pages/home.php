@@ -1,4 +1,8 @@
 <?php require_once "../dados/array.php" ?>
+
+<head>    
+
+</head>
     <main>
         <div class="main-apresentation">
             <div class="apresentation-text">
@@ -19,7 +23,7 @@
         </div>
 
         <section id="Items">
-                <span class="title-section">Nossas especialidades</span>
+                <span class="title-items">Nossas especialidades</span>
                 <div class="icone-mouse">
                     <span id="icon-mouse" class="iconify" data-inline="false" data-icon="iconoir:mouse-scroll-wheel" style="color: #4d4d4d; font-size: 55px;"></span>   
                 </div>
@@ -54,52 +58,7 @@
                 </div>   
                           
             </div>
-        </section>
-
-        <h1>
-            
-            <span class="title-section" style="padding:3rem">
-                Todos os produtos
-            </span>
-            <hr class="separador" style="margin-bottom:3rem; width: 55vw;">
-        </h1>
-
-
-        <section id="todos-produtos">
-            <div class="owl-carousel o wl-theme">
-                <?php foreach($produtos as $item): ?>
-                    <form action="/Pages/produto.php" method="POST">
-                        <div class="item">
-                            <section class="section">
-                                <div class="container">
-                                    <div class="grid">
-                                        <article class="card">
-                                            <input type="hidden" name="id" value="<?= $item["id"] ?>">                                                
-                                            </h2>
-                                            <img name="img" class="card__image" src="<?= $item["imgPath"] ?>" />
-                                            <div class="card__data">
-                                                <div class="card__info">
-                                                    <h2 name="nome" >
-                                                        <?= $item['nome'] ?>
-                                                    </h2>
-                                                    <p name="descricao" >
-                                                        <?= $item['descricao'] ?>
-                                                    </p>
-                                                </div>
-                                                <h3 name="preco" class="card__price">
-                                                    R$<?= $item['preco'] ?>
-                                                </h3>
-                                                <button type="submit" class="card__add">+</button>
-                                            </div>
-                                        </article>                            
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
-                    </form>
-                <?php endforeach; ?> 
-            </div>
-        </section>       
+        </section>        
     </main>
 
    

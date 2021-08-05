@@ -1,5 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
+@font-face {
+  font-family: Bodega Script;
+  src: url(../fonts/bodega-script.otf);
+}
+
+:root {
+  /* variaveis */
+  --texto-branco: #f9f9f9;
+  --texto-preto: #4d4d4d;
+  --texto-destaque: #f95d82;
+}
+
+
 * {
   margin: 0;
   padding: 0;

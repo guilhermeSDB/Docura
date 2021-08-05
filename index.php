@@ -13,16 +13,10 @@
     <!----------------------- Import CSS ----------------------->   
     <link href="https://fonts.googleapis.com/css2?family=Material+Icons"
       rel="stylesheet">
-
-
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
+    
     <!-- Meus CSS  -->
-    <link rel="stylesheet" href="css/global.css">
-    <link rel="stylesheet" href="css/home.css">  
-    <link rel="stylesheet" href="css/produto.css">
-    <link rel="stylesheet" href="css/produto2.css">
+    <link rel="stylesheet" href="css/global.css">  
+    <link rel="stylesheet" href="css/home.css">    
 
     <!-- Carousel CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -38,7 +32,7 @@
             <nav>
                 <span id="logo" class="iconify" data-inline="false" data-icon="mdi:cupcake" style="color: #f95d82; font-size: 48px;"></span>
                     <a id="Home" href="#">Home</a> 
-                    <a id="Produtos" href="#todos-produtos">Produtos</a> 
+                    <a id="Produtos" href="#">Produtos</a> 
                     <a id="Quem-somos" href="#">Quem Somos</a> 
                     <a id="Contato" href="#">Contato</a>
             </nav>
@@ -101,10 +95,6 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-    
     <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
 
     <script src="js/jquery.smoove.js" ></script> 
@@ -116,7 +106,7 @@
                 $("#main").load("Pages/home.php");
             });
             $("#Produtos").click(function(){
-                $("#main").load("Pages/home.php");
+                $("#main").load("Pages/todos-produtos.php");
             });
             $("#Quem-Somos").click(function(){
                 $("#main").load("Pages/quem-somos.php");
@@ -142,24 +132,6 @@
     </script>
 
 
-    <script>
-        $('.owl-carousel').owlCarousel({
-            loop:false,
-            margin:10,
-            nav:true,
-            responsive:{
-                0:{
-                    items:1
-                },
-                600:{
-                    items:3
-                },
-                1000:{
-                    items:5
-                }
-            }
-        })
-      </script>
     
       
     
