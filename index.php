@@ -1,4 +1,4 @@
-<?php require_once "dados/array.php" ?>
+<?php require_once "dados/array-produtos.php" ?>
 
 
 <!DOCTYPE html>
@@ -16,7 +16,8 @@
     
     <!-- Meus CSS  -->
     <link rel="stylesheet" href="css/global.css">  
-    <link rel="stylesheet" href="css/home.css">    
+    <link rel="stylesheet" href="css/home.css">   
+    <link rel="stylesheet" href="css/todos-produtos.css"> 
 
     <!-- Carousel CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -101,6 +102,7 @@
 
     <!-- Animações JS - SmooveJS -->
     <script>
+        // Chamar pagina PHP para o index na div main
         $(document).ready(function(){
             $("#Home").click(function(){
                 $("#main").load("Pages/home.php");
@@ -112,10 +114,10 @@
                 $("#main").load("Pages/quem-somos.php");
             });
         });
-    </script>
 
-    
-    <script>
+
+        // Efeitos com JS
+
         $(".item1").smoove({
         offset  : '40%',
         moveX   : '200px',
@@ -129,10 +131,7 @@
         $(".item3").smoove({
         offset  : '40%',
         moveY   : '-200px',});
-    </script>
-
-
-    
+    </script>   
       
     
 </body>

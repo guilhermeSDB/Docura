@@ -63,6 +63,7 @@ body{
 
 
 .product_card{
+  cursor: pointer;
     margin: 2rem;
     width: 295px;
   height: 228px;
