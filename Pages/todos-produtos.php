@@ -1,4 +1,7 @@
-<?php require_once "../dados/array-produtos.php"?>
+<?php require_once "../dados/array-produtos.php" ;
+
+
+?>
 
 <head>
 
@@ -11,15 +14,17 @@
                 <div class="product_header cupcakes-header">
                     <h1 class="product_title">Cupcakes</h1>
                 </div>                
-                    <form action="/Pages/produto.php" method="POST">
+                    <form name="cupcake-forms" action="/Pages/produto.php" method="POST">
                         <div class="owl-carousel">
                         <?php foreach($cupcakes as $item): ?>
                             <div class="item"> 
                                 <div class="product_products">
-                                    <div id="product_card" class="product_card">
+                                    <div class="product_card" onClick="document.forms['cupcake-forms'].submit();">
                                         <div class="card_image" style="background: url('<?= $item['imgPath'] ?>') no-repeat center center/cover;">
                                         </div>
                                         <div class="card_item">
+                                        <input type="text" name="id" value="<?= $item['id'] ?>">
+                                        <input type="hidden" name="array" value="<?= $tablename = '$cupcakes' ?>">
                                             <div class="card_title">
                                                 <h4><?= $item['nome'] ?></h4>
                                                 <p>Gelados e Saborosos</p>
@@ -45,16 +50,18 @@
                 <div class="product_header bolos-header">
                     <h1 class="product_title">Bolos</h1>
                 </div>                
-                    <form action="/Pages/produto.php" method="POST">
+                    <form name="bolo-forms" action="/Pages/produto.php" method="POST">
                         <div class="owl-carousel">
                         <?php foreach($bolos as $item): ?>
                             <div class="item"> 
                                 <div class="product_products">
-                                    <div id="product_card" class="product_card">
+                                    <div class="product_card" onClick="document.forms['bolo-forms'].submit();">
                                         <div class="card_image" style="background: url('<?= $item['imgPath'] ?>') no-repeat center center/cover;">
                                         </div>
                                         <div class="card_item">
                                             <div class="card_title">
+                                            <input type="text" name="id" value="<?= $item["id"] ?>">
+                                            <input type="hidden" name="array" value="<?= $tablename = '$bolos' ?>">
                                                 <h4><?= $item['nome'] ?></h4>
                                                 <p>Gelados e Saborosos</p>
                                             </div>
@@ -79,21 +86,23 @@
                 <div class="product_header geleias-header">
                     <h1 class="product_title">Geleias</h1>
                 </div>                
-                    <form action="/Pages/produto.php" method="POST">
+                    <form name="geleia-forms" action="/Pages/produto.php" method="POST">
                         <div class="owl-carousel">
                         <?php foreach($geleias as $item): ?>
                             <div class="item"> 
                                 <div class="product_products">
-                                    <div id="product_card" class="product_card">
+                                    <div class="product_card" onClick="document.forms['geleia-forms'].submit();">
                                         <div class="card_image" style="background: url('<?= $item['imgPath'] ?>') no-repeat center center/cover;">
                                         </div>
                                         <div class="card_item">
                                             <div class="card_title">
+                                                <input type="text" name="id" value="<?= $item['id'] ?>">
+                                                <input type="hidden" name="array" value="<?= $tablename = '$geleias' ?>">
                                                 <h4><?= $item['nome'] ?></h4>
                                                 <p>Gelados e Saborosos</p>
                                             </div>
                                             <div class="card_price geleias">
-                                                <p class="">R$<?= $item['preco'] ?></p>
+                                                <p name="preco" class="">R$<?= $item['preco'] ?></p>
                                                 <div class="rating">
                                                     <div class="geleias-rating"></div>
                                                     <div class="geleias-rating"></div>
@@ -110,6 +119,7 @@
                 </form>                
             </div>
         </section>
+        
 
     <!-- Carousel -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -120,8 +130,7 @@
 
     <script type="text/javascript">
         //Enviar div no Formulario com method POST
-        $('#product_card').click(function() {document.forms[0].submit()});    
-
+  
         //Slider JS
         $('.owl-carousel').owlCarousel({
             loop:false,

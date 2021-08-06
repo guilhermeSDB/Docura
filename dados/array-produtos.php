@@ -44,6 +44,13 @@ $cupcakes = [
         'descricao' => 'Bolo de coco, com chocolate',
         'preco' => '10.20',   
     ],
+    '7' =>[
+        'id' => 7,
+        'imgPath' => 'https://www.daninoce.com.br/wp-content/uploads/2019/04/receitas-de-cupcake-destaque-960x625.jpg',
+        'nome' => 'Cupcake - Granulado',
+        'descricao' => 'Bolo de coco, com chocolate',
+        'preco' => '11',   
+    ],
 ];
 
 $bolos = [
@@ -83,10 +90,10 @@ $bolos = [
         'descricao' => 'Cupcake ao leite',
         'preco' => '14.50',   
     ],
-    '6' =>[
-        'id' => 6,
+    '10' =>[
+        'id' => 10,
         'imgPath' => '../images/bolo-no-pote.png',
-        'nome' => 'Bolo no pote 6',
+        'nome' => 'Bolo no pote 10',
         'descricao' => 'Bolo de coco, com chocolate',
         'preco' => '10.20',   
     ],
@@ -129,12 +136,12 @@ $geleias = [
         'descricao' => 'Cupcake ao leite',
         'preco' => '14.50',   
     ],
-    '6' =>[
-        'id' => 6,
+    '60' =>[
+        'id' => 60 ,
         'imgPath' => '../images/bolo-no-pote.png',
-        'nome' => 'Bolo no pote 6',
+        'nome' => 'Bolo no pote 60',
         'descricao' => 'Bolo de coco, com chocolate',
-        'preco' => '10.20',   
+        'preco' => '20.10',   
     ],
 ];
 
