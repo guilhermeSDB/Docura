@@ -90,8 +90,8 @@ $bolos = [
         'descricao' => 'Cupcake ao leite',
         'preco' => '14.50',   
     ],
-    '10' =>[
-        'id' => 10,
+    '6' =>[
+        'id' => 6,
         'imgPath' => '../images/bolo-no-pote.png',
         'nome' => 'Bolo no pote 10',
         'descricao' => 'Bolo de coco, com chocolate',

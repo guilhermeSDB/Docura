@@ -3,15 +3,13 @@
 echo '<pre>';
 print_r($_POST);
 echo '</pre>';
-echo '<pre>';
-print_r($_REQUEST);
-echo '</pre>';
 
 $id = $_POST['id'];
 $tablename = $_POST['array'];
 
 
 if($tablename == '$cupcakes'){
+    
     $nome = $cupcakes[$id]['nome'];   
     $preco = $cupcakes[$id]['preco'];   
     $img = $cupcakes[$id]['imgPath'];   

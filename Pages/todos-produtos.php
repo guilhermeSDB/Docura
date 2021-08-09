@@ -1,6 +1,5 @@
 <?php require_once "../dados/array-produtos.php" ;
 
-
 ?>
 
 <head>
@@ -14,17 +13,17 @@
                 <div class="product_header cupcakes-header">
                     <h1 class="product_title">Cupcakes</h1>
                 </div>                
-                    <form name="cupcake-forms" action="/Pages/produto.php" method="POST">
+                    <form action="/Pages/produto.php" method="POST">
                         <div class="owl-carousel">
                         <?php foreach($cupcakes as $item): ?>
                             <div class="item"> 
                                 <div class="product_products">
-                                    <div class="product_card" onClick="document.forms['cupcake-forms'].submit();">
+                                    <button class="product_card">
                                         <div class="card_image" style="background: url('<?= $item['imgPath'] ?>') no-repeat center center/cover;">
                                         </div>
                                         <div class="card_item">
-                                        <input type="text" name="id" value="<?= $item['id'] ?>">
-                                        <input type="hidden" name="array" value="<?= $tablename = '$cupcakes' ?>">
+                                            <input type="text" name="id" value="<?= $item['id'] ?>">
+                                            
                                             <div class="card_title">
                                                 <h4><?= $item['nome'] ?></h4>
                                                 <p>Gelados e Saborosos</p>
@@ -39,7 +38,7 @@
                                                 </div>
                                             </div>                                
                                         </div>                            
-                                    </div>
+                                    </button>                                    
                                 </div>
                             </div>  
                         <?php endforeach; ?>      
@@ -55,12 +54,12 @@
                         <?php foreach($bolos as $item): ?>
                             <div class="item"> 
                                 <div class="product_products">
-                                    <div class="product_card" onClick="document.forms['bolo-forms'].submit();">
+                                    <div class="product_card">
                                         <div class="card_image" style="background: url('<?= $item['imgPath'] ?>') no-repeat center center/cover;">
                                         </div>
                                         <div class="card_item">
                                             <div class="card_title">
-                                            <input type="text" name="id" value="<?= $item["id"] ?>">
+                                            <input type="hidden" name="id" value="<?= $item['id'] ?>">
                                             <input type="hidden" name="array" value="<?= $tablename = '$bolos' ?>">
                                                 <h4><?= $item['nome'] ?></h4>
                                                 <p>Gelados e Saborosos</p>
@@ -129,6 +128,7 @@
     <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
 
     <script type="text/javascript">
+        
         //Enviar div no Formulario com method POST
   
         //Slider JS
@@ -150,7 +150,7 @@
                     items:5
                 }
             }
-        })
+        });
       </script>  
         
 
