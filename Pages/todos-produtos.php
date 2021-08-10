@@ -22,8 +22,8 @@
                                         <div class="card_image" style="background: url('<?= $item['imgPath'] ?>') no-repeat center center/cover;">
                                         </div>
                                         <div class="card_item">
-                                            <input type="text" name="id" value="<?= $item['id'] ?>">
-                                            
+                                            <input type="hidden" name="id" value="<?= $item['id'] ?>">
+                                            <input type="hidden" name="array" value="<?= $tablename = '$cupcakes' ?>">
                                             <div class="card_title">
                                                 <h4><?= $item['nome'] ?></h4>
                                                 <p>Gelados e Saborosos</p>
@@ -95,7 +95,7 @@
                                         </div>
                                         <div class="card_item">
                                             <div class="card_title">
-                                                <input type="text" name="id" value="<?= $item['id'] ?>">
+                                                <input type="hidden" name="id" value="<?= $item['id'] ?>">
                                                 <input type="hidden" name="array" value="<?= $tablename = '$geleias' ?>">
                                                 <h4><?= $item['nome'] ?></h4>
                                                 <p>Gelados e Saborosos</p>
