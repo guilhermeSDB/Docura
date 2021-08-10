@@ -92,4 +92,4 @@ https://i.pinimg.com/originals/06/1e/af/061eafa96e27e21d4139225b6fe0555f.png
 https://docs.google.com/document/d/1a11F1I2hYQjom2oQqSukLpidJ3PMYEHgOVGLgSsnt08/edit?usp=sharing    
 
 ## Licença
-
+[MIT](https://github.com/guilhermeSDB/MAPA-Faculdade/blob/master/LICENSE)
