@@ -1,8 +1,55 @@
 <h1 align="center"> Doçaria </h1>
 
-<p align="center">Site para vitrine de produtos</p>
+<p align="center">Site para vitrine de produtos de uma loja ficticia.</p>  
+
+Tabela de conteúdos
+=================
+<!--ts-->
+   * [Sobre](#sobre)
+   * [Tabela de Conteudo](#tabela-de-conteudo)
+   * [Status do Projeto](#status-do-projeto)
+   * [Imagens](#imagens)
+   * [Como usar](#como-usar)
+      * [Pre Requisitos](#pre-requisitos)
+      * [Local files](#local-files)
+      * [Remote files](#remote-files)
+      * [Multiple files](#multiple-files)
+      * [Combo](#combo)
+   * [Tecnologias](#tecnologias)
+<!--te-->  
+
+## Status do Projeto:
+<h4> 
+    Em construção... 
+</h4>
+
+## Imagens 
+### Home 
+
+<img alt="Home" title="#Home" src="https://i.imgur.com/2TPJCoG.png" />
+<img alt="Section-Cupcakes" title="#Cupcakes" src="https://i.imgur.com/FhyFOs3.png" />
+<img alt="Section-bolos" title="#Bolos" src="https://i.imgur.com/B6fx1Pr.png" />
+<img alt="Section-geleias" title="#Geleias" src="https://i.imgur.com/xjmW4UK.png" />  
 
 
+### Produtos
+
+<img alt="Section-cupcakes" title="#Cupcakes" src="https://i.imgur.com/LZWMQDl.png" />  
+<img alt="Section-bolos" title="#Bolos" src="https://i.imgur.com/3FpoDkc.png" />  
+<img alt="Section-geleias" title="#Geleias" src="https://i.imgur.com/0xOypzB.png" />  
+
+
+### Produto Especifico Exemplo:
+
+<img alt="Produto-Especifico" title="#Produto-Example" src="https://i.imgur.com/jefp2nT.png" />  
+
+### Footer
+<img alt="Footer" title="#footer" src="https://i.imgur.com/LuCUB6f.png?1" />  
+
+
+## Como Usar
+
+### Pre-Requisitos
 
 Referencias:  
 https://blog.rocketseat.com.br/como-fazer-um-bom-readme/         
