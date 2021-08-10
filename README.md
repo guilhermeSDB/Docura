@@ -52,7 +52,11 @@ Tabela de conteúdos
 
 ### Pre-Requisitos
 
-<p>[Xampp](https://www.apachefriends.org/pt_br/download.html) ou VSCode</p>
+<p>
+[Xampp](https://www.apachefriends.org/pt_br/download.html)   
+ou   
+VSCode  
+</p>
 
 ### Utilizando Xampp 
 
