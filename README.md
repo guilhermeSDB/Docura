@@ -60,18 +60,18 @@ VSCode
 
 ### Utilizando Xampp 
 
-Apos baixar,instalar e inicializar o Xampp:
-<p>1- Colocar o projeto na pasta xampp/htdocs/(Projeto Aqui).</p>
-<p>2- Digitar no browser http://localhost/Projeto/index.php/.</p>
+Apos baixar,instalar e inicializar o Xampp:  
+1- Colocar o projeto na pasta xampp/htdocs/(Projeto Aqui).  
+2- Digitar no browser http://localhost/Projeto/index.php/.
 
 ### Utilizando VSCode
 
 Para utilizar esse metodo é presciso que o PHP esteja nas variaveis de ambiente do Windows.
 
-1- Abra o projeto no VSCode
-2- Abra o terminal (CTRL+')
-3- Digite "php -S localhost:81"
-4- No navegador digite "localhost:81" e automaticamente ele rediricionara para o Index.php
+1- Abra o projeto no VSCode.  
+2- Abra o terminal (CTRL+').  
+3- Digite "php -S localhost:81".  
+4- No navegador digite "localhost:81" e automaticamente ele rediricionara para o Index.php.  
 
 
 ## Tecnologias
