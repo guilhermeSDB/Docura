@@ -11,11 +11,12 @@ Tabela de conteúdos
    * [Imagens](#imagens)
    * [Como usar](#como-usar)
       * [Pre Requisitos](#pre-requisitos)
-      * [Local files](#local-files)
-      * [Remote files](#remote-files)
-      * [Multiple files](#multiple-files)
-      * [Combo](#combo)
+      * [Xampp](#Utilizando-Xampp)
+      * [VSCode](#utilizando-vscode)
    * [Tecnologias](#tecnologias)
+   * [Autor](#autor)
+   * [Referencias](#referencias)
+   * [Licença](#licença)
 <!--te-->  
 
 ## Status do Projeto:
@@ -51,11 +52,44 @@ Tabela de conteúdos
 
 ### Pre-Requisitos
 
-Referencias:  
+<p>[Xampp](https://www.apachefriends.org/pt_br/download.html) ou VSCode</p>
+
+### Utilizando Xampp 
+
+Apos baixar,instalar e inicializar o Xampp:
+<p>1- Colocar o projeto na pasta xampp/htdocs/(Projeto Aqui).</p>
+<p>2- Digitar no browser http://localhost/Projeto/index.php/.</p>
+
+### Utilizando VSCode
+
+Para utilizar esse metodo é presciso que o PHP esteja nas variaveis de ambiente do Windows.
+
+1- Abra o projeto no VSCode
+2- Abra o terminal (CTRL+')
+3- Digite "php -S localhost:81"
+4- No navegador digite "localhost:81" e automaticamente ele rediricionara para o Index.php
+
+
+## Tecnologias
+- HTML
+- CSS
+- Javascript
+- PHP
+
+
+## Autor
+
+Guilherme Scarmagnani de Barros
+
+
+## Referencias:  
 https://blog.rocketseat.com.br/como-fazer-um-bom-readme/         
 https://codepen.io/veerendranath0312/pen/dyGJdod?editors=1100  
 https://codepen.io/ainalem/pen/QWGNzYm  
 https://i.pinimg.com/originals/06/1e/af/061eafa96e27e21d4139225b6fe0555f.png  
 
-Enunciado do Trabalho:
-https://docs.google.com/document/d/1a11F1I2hYQjom2oQqSukLpidJ3PMYEHgOVGLgSsnt08/edit?usp=sharing  
+### Enunciado do Trabalho:
+https://docs.google.com/document/d/1a11F1I2hYQjom2oQqSukLpidJ3PMYEHgOVGLgSsnt08/edit?usp=sharing    
+
+## Licença
+
