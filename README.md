@@ -101,7 +101,7 @@ Para utilizar esse metodo é presciso que o PHP esteja nas variaveis de ambiente
 - Editor: Visual Studio Code
 - Markdown: StackEdit
 - Ícones: Feather Icons, Font Awesome
-- Fontes: Bodega Script, Roboto.
+- Fontes: Bodega Script, Poppins.
 - Libs: Google Fonts, Material Icons, Iconify, CarouselCSS, OWLCarousel(JS), Smoove(JS), JQUERY
 
 ## Autor
