@@ -25,10 +25,10 @@
 
 .card_contato{
     position: absolute;
-    width: 350px;
-    height: 400px;
-    left: 935px;
-    top: 348px;
+    width: 25.62vw;
+    height: 64vh;
+    left: 68.44vw;
+    top: 25.47vw;
     padding: 2rem 3rem;
     background: #F9F9F9;
     box-shadow: 0px 4px 17px 4px rgba(0, 0, 0, 0.25);
@@ -80,3 +80,12 @@
     font-weight: bold;
 }
   
+.card_contato .logos{
+    display: flex;
+    justify-content: center;
+}
+
+.card_contato .logos img{
+    width: 8vw;
+    
+}
