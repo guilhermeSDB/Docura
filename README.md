@@ -21,7 +21,21 @@ Tabela de conteúdos
 
 ## Status do Projeto:
 <h4> 
-    Em construção... 
+    Em construção...
+ 
+- [x] Design Figma
+- [x] Paginas HTML
+- [x] Arquivos CSS
+- [x] Arquivos JS
+- [x] Arquivos PHP - Arrays
+- [ ] Correção de Bugs
+- [ ] Correção de Layout
+- [ ] Refatoramento HTML
+- [ ] Refatoramento CSS
+- [ ] Refatoramento JS
+- [ ] Refatoramento PHP
+- [ ] README Completo
+
 </h4>
 
 ## Imagens 
