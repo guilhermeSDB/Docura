@@ -94,6 +94,14 @@ Para utilizar esse metodo é presciso que o PHP esteja nas variaveis de ambiente
 - Javascript
 - PHP
 
+### Utilitarios 
+
+- Protótipo: Figma → Protótipo (Doçura)
+- API: Google API → API Maps JS
+- Editor: Visual Studio Code
+- Markdown: StackEdit
+- Ícones: Feather Icons, Font Awesome
+- Fontes: Bodega Script, Roboto.
 
 ## Autor
 
