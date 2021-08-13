@@ -66,10 +66,8 @@ Tabela de conteúdos
 
 ### Pre-Requisitos
 
-<p>[Xampp](https://www.apachefriends.org/pt_br/download.html).
-ou   
-[VSCode](https://code.visualstudio.com/).
-</p>
+[Xampp](https://www.apachefriends.org/pt_br/download.html) ou [VSCode](https://code.visualstudio.com/)
+
 
 ### Utilizando Xampp 
 
