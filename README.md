@@ -102,9 +102,11 @@ Para utilizar esse metodo é presciso que o PHP esteja nas variaveis de ambiente
 - Markdown: StackEdit
 - Ícones: Feather Icons, Font Awesome
 - Fontes: Bodega Script, Roboto.
+- Libs: Google Fonts, Material Icons, Iconify, CarouselCSS, OWLCarousel(JS), Smoove(JS), JQUERY
 
 ## Autor
 
+Todo o projeto: Protótipo, HTML, CSS, JS, PHP e ReadME foi feito e finalizado por min.  
 Guilherme Scarmagnani de Barros
 
 
