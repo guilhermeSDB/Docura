@@ -66,10 +66,9 @@ Tabela de conteúdos
 
 ### Pre-Requisitos
 
-<p>
-[Xampp](https://www.apachefriends.org/pt_br/download.html)   
+<p>[Xampp](https://www.apachefriends.org/pt_br/download.html).
 ou   
-VSCode  
+[VSCode](https://code.visualstudio.com/).
 </p>
 
 ### Utilizando Xampp 
@@ -96,13 +95,13 @@ Para utilizar esse metodo é presciso que o PHP esteja nas variaveis de ambiente
 
 ### Utilitarios 
 
-- Protótipo: [Figma](https://www.figma.com/) → Protótipo (Doçura)
-- API: Google API → API Maps JS
-- Editor: Visual Studio Code
-- Markdown: StackEdit
-- Ícones: Feather Icons, Font Awesome
-- Fontes: Bodega Script, Poppins.
-- Libs: Google Fonts, Material Icons, Iconify, CarouselCSS, OWLCarousel(JS), Smoove(JS), JQUERY
+- Protótipo: [Figma](https://www.figma.com/) → [Protótipo (Doçura)](https://www.figma.com/file/n6kZSO4krcFkQAgb3YSZww/Untitled?node-id=0%3A1)
+- API: [Google Cloud APIs](https://cloud.google.com/apis?hl=en) → [API Maps JS](https://developers.google.com/maps/documentation/javascript/overview?hl=pt-br)
+- Editor: [Visual Studio Code](https://code.visualstudio.com/)
+- Markdown: [StackEdit](https://stackedit.io/)
+- Ícones: [Font Awesome](https://fontawesome.com/icons), [Material Icons](https://fonts.google.com/icons), [Iconify](https://iconify.design/)
+- Fontes: [Bodega Script](https://br.maisfontes.com/bodega-script), [Poppins](https://fonts.google.com/specimen/Poppins).
+- Libs: [Google Fonts](https://fonts.google.com/), [CarouselCSS](https://owlcarousel2.github.io/OwlCarousel2/), [OWLCarousel(JS)](https://owlcarousel2.github.io/OwlCarousel2/), [Smoove(JS)](https://smoove.js.org/), [JQUERY](https://jquery.com/)
 
 ## Autor
 
