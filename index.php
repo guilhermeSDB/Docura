@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="css/home.css">   
     <link rel="stylesheet" href="css/todos-produtos.css"> 
     <link rel="stylesheet" href="css/quem-somos.css"> 
+    <link rel="stylesheet" href="css/contato.css"> 
 
     <!-- Carousel CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -113,6 +114,9 @@
             });                        
             $("#Quem-somos").click(function(){
                 $("#main").load("Pages/quem-somos.php");
+            });
+            $("#Contato").click(function(){
+                $("#main").load("Pages/contato.php");
             });
         });
 
