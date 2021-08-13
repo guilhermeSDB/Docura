@@ -1,6 +1,7 @@
 .quem-somos {
+
   width: 70vw;
-  height: 67vh;
+  height: 80vh;
   margin: 4vw auto;
 }
 
@@ -24,8 +25,8 @@ section .quem-somos_card {
   border-radius: 30px;
   background: #ffffff;
   box-shadow: 39px 39px 78px #e3e3e3, -39px -39px 78px #ffffff;
-  width: 20%;
-  height: 94%;
+  width: 17vw;
+  height: 65vh;
 }
 
 .card_quem-somos .img_quem-somos {
@@ -33,11 +34,11 @@ section .quem-somos_card {
 }
 
 .img_card {
-  width: 200px;
-  height: 200px;
+  width: 14.64vw;
+  height: 14.64vw;
   background-size: cover;
   display: block;
-  border-radius: 100px;
+  border-radius: 7.32vw;
   -webkit-border-radius: 100px;
   -moz-border-radius: 100px;
 }
@@ -49,19 +50,20 @@ section .quem-somos_card {
 }
 
 .card_quem-somos .divider {
-  width: 90%;
+  width: 80%;
   border: 1px solid var(--texto-destaque);
 }
 
 .card_quem-somos .description_quem-somos h1 {
   font-weight: 700;
   padding: 1rem 0 0 0;
+  font-size: 1.5vw;
 }
 
 .card_quem-somos .description_quem-somos p {
   font-weight: 300;
   font-style: italic;
-  font-size: 0.9rem;
+  font-size: .95vw;
 }
 
 .card_quem-somos .divider,
