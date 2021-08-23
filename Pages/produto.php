@@ -62,10 +62,10 @@ if($tablename == '$cupcakes'){
         <div class="container-nav">
             <nav>
                 <span id="logo" class="iconify" data-inline="false" data-icon="mdi:cupcake" style="color: #f95d82; font-size: 48px;"></span>
-                    <a id="Home" href="../index.php">Home</a> 
-                    <a id="Produtos" href="../index.php">Produtos</a> 
-                    <a id="Quem-somos" href="../index.php">Quem Somos</a> 
-                    <a id="Contato" href="../index.php">Contato</a>
+                    <a id="Home" href="#">Home</a> 
+                    <a id="Produtos" href="#">Produtos</a> 
+                    <a id="Quem-somos" href="#">Quem Somos</a> 
+                    <a id="Contato" href="#">Contato</a>
             </nav>
         </div>
         <hr class="separador">
@@ -160,22 +160,7 @@ if($tablename == '$cupcakes'){
     <script src="js/jquery.smoove.js" ></script> 
 
     <!-- Animações JS - SmooveJS -->
-    <script> 
-        function chamar(){
-            // Chamar pagina PHP para o index na div main
-            $(document).ready(function(){
-            $("#Home").click(function(){
-                $("#main").load("Pages/home.php");
-            });
-            $("#Produtos").click(function(){
-                $("#main").load("Pages/todos-produtos.php");
-            });
-            $("#Quem-Somos").click(function(){
-                $("#main").load("Pages/quem-somos.php");
-            });
-        });
-        return
-        }
+    <script>         
 
         // Efeitos com JS
 

@@ -203,7 +203,7 @@ section .item3 {
 }
 
 .item-description {
-  margin: 0;
+  margin: -4vw -1vw;
   text-align: justify;
   font-size: 1vw;
   font-weight: 400;
