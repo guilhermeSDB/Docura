@@ -21,7 +21,21 @@ Tabela de conteúdos
 
 ## Status do Projeto:
 <h4> 
-    Em construção... 
+    Em construção...
+ 
+- [x] Design Figma
+- [x] Paginas HTML
+- [x] Arquivos CSS
+- [x] Arquivos JS
+- [x] Arquivos PHP - Arrays
+- [ ] Correção de Bugs
+- [ ] Correção de Layout
+- [ ] Refatoramento HTML
+- [ ] Refatoramento CSS
+- [ ] Refatoramento JS
+- [ ] Refatoramento PHP
+- [ ] README Completo
+
 </h4>
 
 ## Imagens 
@@ -52,11 +66,8 @@ Tabela de conteúdos
 
 ### Pre-Requisitos
 
-<p>
-[Xampp](https://www.apachefriends.org/pt_br/download.html)   
-ou   
-VSCode  
-</p>
+[Xampp](https://www.apachefriends.org/pt_br/download.html) ou [VSCode](https://code.visualstudio.com/)
+
 
 ### Utilizando Xampp 
 
@@ -80,9 +91,19 @@ Para utilizar esse metodo é presciso que o PHP esteja nas variaveis de ambiente
 - Javascript
 - PHP
 
+### Utilitarios 
+
+- Protótipo: [Figma](https://www.figma.com/) → [Protótipo (Doçura)](https://www.figma.com/file/n6kZSO4krcFkQAgb3YSZww/Untitled?node-id=0%3A1)
+- API: [Google Cloud APIs](https://cloud.google.com/apis?hl=en) → [API Maps JS](https://developers.google.com/maps/documentation/javascript/overview?hl=pt-br)
+- Editor: [Visual Studio Code](https://code.visualstudio.com/)
+- Markdown: [StackEdit](https://stackedit.io/)
+- Ícones: [Font Awesome](https://fontawesome.com/icons), [Material Icons](https://fonts.google.com/icons), [Iconify](https://iconify.design/)
+- Fontes: [Bodega Script](https://br.maisfontes.com/bodega-script), [Poppins](https://fonts.google.com/specimen/Poppins).
+- Libs: [Google Fonts](https://fonts.google.com/), [CarouselCSS](https://owlcarousel2.github.io/OwlCarousel2/), [OWLCarousel(JS)](https://owlcarousel2.github.io/OwlCarousel2/), [Smoove(JS)](https://smoove.js.org/), [JQUERY](https://jquery.com/)
 
 ## Autor
 
+Todo o projeto: Protótipo, HTML, CSS, JS, PHP e ReadME foi feito e finalizado por min.  
 Guilherme Scarmagnani de Barros
 
 
