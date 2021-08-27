@@ -5,6 +5,7 @@
 <head>
 
 </head>
+<main>
         <section>
             <div class="products-title-section">
                 Todos os produtos
@@ -12,10 +13,10 @@
             <div class="products-section-products">
                 <div class="product_header cupcakes-header">
                     <h1 class="product_title">Cupcakes</h1>
-                </div>                
-                    <form action="/Pages/produto.php" method="POST">
-                        <div class="owl-carousel">
-                        <?php foreach($cupcakes as $item): ?>
+                </div>    
+                <div class="owl-carousel">
+                    <?php foreach($cupcakes as $item): ?>
+                        <form action="/Pages/produto.php" method="POST">
                             <div class="item"> 
                                 <div class="product_products">
                                     <button class="product_card">
@@ -40,21 +41,21 @@
                                         </div>                            
                                     </button>                                    
                                 </div>
-                            </div>  
-                        <?php endforeach; ?>      
-                    </div>
-                </form>                
+                            </div> 
+                        </form>  
+                    <?php endforeach; ?>      
+                </div>       
             </div>
             <div class="products-section-products">
                 <div class="product_header bolos-header">
                     <h1 class="product_title">Bolos</h1>
-                </div>                
-                    <form name="bolo-forms" action="/Pages/produto.php" method="POST">
-                        <div class="owl-carousel">
-                        <?php foreach($bolos as $item): ?>
+                </div>   
+                <div class="owl-carousel">
+                    <?php foreach($bolos as $item): ?>
+                        <form name="bolo-forms" action="/Pages/produto.php" method="POST">
                             <div class="item"> 
                                 <div class="product_products">
-                                    <div class="product_card">
+                                    <button class="product_card">
                                         <div class="card_image" style="background: url('<?= $item['imgPath'] ?>') no-repeat center center/cover;">
                                         </div>
                                         <div class="card_item">
@@ -74,23 +75,23 @@
                                                 </div>
                                             </div>                                
                                         </div>                            
-                                    </div>
+                                    </button>
                                 </div>
-                            </div>  
-                        <?php endforeach; ?>      
-                    </div>
-                </form>                
+                            </div> 
+                        </form>    
+                    <?php endforeach; ?>      
+                </div>     
             </div>
             <div class="products-section-products">
                 <div class="product_header geleias-header">
                     <h1 class="product_title">Geleias</h1>
-                </div>                
-                    <form name="geleia-forms" action="/Pages/produto.php" method="POST">
-                        <div class="owl-carousel">
-                        <?php foreach($geleias as $item): ?>
+                </div>               
+                <div class="owl-carousel">
+                    <?php foreach($geleias as $item): ?>
+                        <form name="geleia-forms" action="/Pages/produto.php" method="POST">
                             <div class="item"> 
                                 <div class="product_products">
-                                    <div class="product_card" onClick="document.forms['geleia-forms'].submit();">
+                                    <button class="product_card">
                                         <div class="card_image" style="background: url('<?= $item['imgPath'] ?>') no-repeat center center/cover;">
                                         </div>
                                         <div class="card_item">
@@ -110,15 +111,15 @@
                                                 </div>
                                             </div>                                
                                         </div>                            
-                                    </div>
+                                    </button>
                                 </div>
                             </div>  
-                        <?php endforeach; ?>      
-                    </div>
-                </form>                
+                        </form> 
+                    <?php endforeach; ?>      
+                </div>                               
             </div>
         </section>
-        
+</main>    
 
     <!-- Carousel -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

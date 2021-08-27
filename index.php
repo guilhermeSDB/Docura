@@ -117,6 +117,9 @@
             $("#Contato").click(function(){
                 $("#main").load("Pages/contato.php");
             });
+            $("#button").click(function(){
+                $("#main").load("produtos.php");
+            });
         });
 
 
