@@ -107,15 +107,15 @@ Todo o projeto: Protótipo, HTML, CSS, JS, PHP e ReadME foi feito e finalizado p
 
 Guilherme Scarmagnani de Barros
 
-###Contato Pessoal:
-[Facebook:](https://www.facebook.com/guilherme.s.barros.3/)
-[Instagram](https://www.instagram.com/guilherme.dgrego/)
+### Contato Pessoal:
+[Facebook:](https://www.facebook.com/guilherme.s.barros.3/)  
+[Instagram](https://www.instagram.com/guilherme.dgrego/)  
 
-###Contato Profissional:
-[Linkedin](https://www.linkedin.com/in/guilhermesb/)
-[Behance](https://www.behance.net/guilhermescarmagnani)
-[Github](https://github.com/guilhermeSDB)
-Email: Guilhermescarmagnani@outlook.com
+### Contato Profissional:
+[Linkedin](https://www.linkedin.com/in/guilhermesb/)  
+[Behance](https://www.behance.net/guilhermescarmagnani)  
+[Github](https://github.com/guilhermeSDB)  
+Email: Guilhermescarmagnani@outlook.com  
 
 
 ## Referencias:  
