@@ -41,22 +41,27 @@ Tabela de conteúdos
 ## Imagens 
 ### Home 
 
-<img alt="Home" title="#Home" src="https://i.imgur.com/2TPJCoG.png" />
-<img alt="Section-Cupcakes" title="#Cupcakes" src="https://i.imgur.com/FhyFOs3.png" />
-<img alt="Section-bolos" title="#Bolos" src="https://i.imgur.com/B6fx1Pr.png" />
-<img alt="Section-geleias" title="#Geleias" src="https://i.imgur.com/xjmW4UK.png" />  
+<img alt="Home" title="#Home" src="https://i.imgur.com/7BVnFSb.png" />
+<img alt="Section-Cupcakes" title="#Cupcakes" src="https://i.imgur.com/G7l1qNQ.png" />
+<img alt="Section-bolos" title="#Bolos" src="https://i.imgur.com/urCDDky.png" />
+<img alt="Section-geleias" title="#Geleias" src="https://i.imgur.com/GcEyxow.png" />  
 
 
 ### Produtos
 
-<img alt="Section-cupcakes" title="#Cupcakes" src="https://i.imgur.com/LZWMQDl.png" />  
-<img alt="Section-bolos" title="#Bolos" src="https://i.imgur.com/3FpoDkc.png" />  
-<img alt="Section-geleias" title="#Geleias" src="https://i.imgur.com/0xOypzB.png" />  
-
+<img alt="Section-cupcakes-bolos" title="#CupcakesEbolos" src="https://i.imgur.com/hnjDZQe.png" />
+<img alt="Section-geleias" title="#Geleias" src="https://i.imgur.com/KfbfacJ.png" />  
 
 ### Produto Especifico Exemplo:
-
 <img alt="Produto-Especifico" title="#Produto-Example" src="https://i.imgur.com/jefp2nT.png" />  
+
+
+### Quem Somos
+<img alt="Section-quem-somos" title="#QuemSomos" src="https://i.imgur.com/WeXTqJc.png" />
+
+### Contato
+<img alt="Section-quem-somos" title="#QuemSomos" src="https://i.imgur.com/uAf8h6J.png" />
+
 
 ### Footer
 <img alt="Footer" title="#footer" src="https://i.imgur.com/LuCUB6f.png?1" />  
@@ -102,20 +107,23 @@ Para utilizar esse metodo é presciso que o PHP esteja nas variaveis de ambiente
 - Libs: [Google Fonts](https://fonts.google.com/), [CarouselCSS](https://owlcarousel2.github.io/OwlCarousel2/), [OWLCarousel(JS)](https://owlcarousel2.github.io/OwlCarousel2/), [Smoove(JS)](https://smoove.js.org/), [JQUERY](https://jquery.com/)
 
 ## Autor
+Guilherme Scarmagnani de Barros.  
+RA: 20037859-5.      
+CURSO: SUPERIOR DE TECNOLOGIA EM SISTEMAS PARA INTERNET.  
+  
+Unicesumar.
 
 Todo o projeto: Protótipo, HTML, CSS, JS, PHP e ReadME foi feito e finalizado por min.  
 
-Guilherme Scarmagnani de Barros
-
 ### Contato Pessoal:
-[Facebook:](https://www.facebook.com/guilherme.s.barros.3/)  
+[Facebook](https://www.facebook.com/guilherme.s.barros.3/)  
 [Instagram](https://www.instagram.com/guilherme.dgrego/)  
 
 ### Contato Profissional:
 [Linkedin](https://www.linkedin.com/in/guilhermesb/)  
 [Behance](https://www.behance.net/guilhermescarmagnani)  
 [Github](https://github.com/guilhermeSDB)  
-Email: Guilhermescarmagnani@outlook.com  
+[Email](Guilhermescarmagnani@outlook.com)  
 
 
 ## Referencias:  
