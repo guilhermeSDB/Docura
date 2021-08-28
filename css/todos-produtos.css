@@ -1,139 +1,165 @@
-body{
-    background-color: var(--fundo);
+body {
+  background-color: var(--fundo);
 }
 
-.cupcakes-header{
-    background: url(../images/fundo-produtos-cupcakes.svg) no-repeat;
+.cupcakes-header {
+  background: url(../images/fundo-produtos-cupcakes.svg);
 }
 
-.cupkcakes{
-    color: #f7736e;
+.cupkcakes {
+  color: #f7736e;
 }
 
-.cupkcakes-rating{
-    background: #f7736e;
+.cupkcakes-rating {
+  background: #f7736e;
 }
 
-.bolos-header{
-    background: url(../images/fundo-produtos-bolos.svg) no-repeat;
+.bolos-header {
+  background: url(../images/fundo-produtos-bolos.svg);
 }
 
-.bolos{
-    color: #613F27;
+.bolos {
+  color: #613f27;
 }
 
-.bolos-rating{
-    background: #613F27;
+.bolos-rating {
+  background: #613f27;
 }
 
-.geleias-header{
-    background: url(../images/fundo-produtos-geleias.svg) no-repeat;
+.geleias-header {
+  background: url(../images/fundo-produtos-geleias.svg);
 }
 
-.geleias-rating{
-    background: #E8A200;
+.geleias-rating {
+  background: #e8a200;
 }
 
-.geleias{
-    color: #E8A200;
+.geleias {
+  color: #e8a200;
 }
 
-.products-title-section{
-    font-family: "Bodega Script";
-    font-size: 3.2vw;
-    margin: 2rem auto;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
+.products-title-section {
+  animation: 3s ease-out 2 fadein;
+
+  font-family: "Bodega Script";
+  font-size: 3.2vw;
+  margin: 2rem auto;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
 }
 
-.product_header{    
-    height: 4vw;
+@-webkit-keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
-.product_header h1{
-    margin: 2rem;
-    color: var(--texto-branco);
-    height: 100%;
-    display: flex;
-    align-items: center;
-    font-family: "Bodega Script";
-    font-size: 3vw;
+@keyframes fontbulger {
+  0% {
+    font-size: 10px;
+  }
+  30% {
+    font-size: 15px;
+  }
+  100% {
+    font-size: 12px;
+  }
 }
 
+.product_header {
+  height: 4vw;
+}
 
-.product_card{
+.product_header h1 {
+  margin: 2rem;
+  color: var(--texto-branco);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-family: "Bodega Script";
+  font-size: 3vw;
+}
+
+.product_card {
   cursor: pointer;
-    margin: 2rem;
-    width: 295px;
+  margin: 2rem;
+  width: 295px;
   height: 228px;
   border-radius: 40px;
   background: #fff;
   border: 1px solid #f0f0f0;
-  box-shadow:
-  0 3.4px 2.7px rgba(0, 0, 0, 0.022),
-  0 8.7px 6.9px rgba(0, 0, 0, 0.031),
-  0 17.7px 14.2px rgba(0, 0, 0, 0.039),
-  0 36.5px 29.2px rgba(0, 0, 0, 0.048),
-  0 100px 80px rgba(0, 0, 0, 0.07);
+  box-shadow: 0 3.4px 2.7px rgba(0, 0, 0, 0.022),
+    0 8.7px 6.9px rgba(0, 0, 0, 0.031), 0 17.7px 14.2px rgba(0, 0, 0, 0.039),
+    0 36.5px 29.2px rgba(0, 0, 0, 0.048), 0 100px 80px rgba(0, 0, 0, 0.07);
   overflow: hidden;
-
 }
 
 .card_image {
-    width: 325px;
-    height: 70%;
-    object-fit: cover;
-    border: 1px solid #f0f0f0;
-    border-bottom-right-radius: 80px;
-    transform: translateX(-4px) translateY(-17px) rotate(10deg);
-  }
+  width: 325px;
+  height: 70%;
+  object-fit: cover;
+  border: 1px solid #f0f0f0;
+  border-bottom-right-radius: 80px;
+  transform: translateX(-4px) translateY(-17px) rotate(10deg);
+}
 
-  .card_item{
-    height: 30%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 26px;
-  }
+.card_item {
+  height: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 26px;
+}
 
-  .card_title h4 {
-    font-size: 16px;
-    font-weight: bold;
-    color: #11313c;
-  }
+.card_title h4 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #11313c;
+}
 
-  .card_title p {
-    font-size: 12px;
-    font-weight: 500;
-    color: #949a98;
-  }
+.card_title p {
+  font-size: 12px;
+  font-weight: 500;
+  color: #949a98;
+}
 
-  .card_price {
-    display: flex;
-    flex-direction: column;
-  }
+.card_price {
+  display: flex;
+  flex-direction: column;
+}
 
-  .card_price p {
-    font-size: 18px;
-    font-weight: bold;
-    
-    text-align: right;
-  }
+.card_price p {
+  font-size: 18px;
+  font-weight: bold;
 
-  .rating{
-      display: flex;
-  }
+  text-align: right;
+}
 
-  .rating > div {
-    width: 15px;
-    height: 15px;
-    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
-  }
+.rating {
+  display: flex;
+}
 
-  
+.rating > div {
+  width: 15px;
+  height: 15px;
+  clip-path: polygon(
+    50% 0%,
+    61% 35%,
+    98% 35%,
+    68% 57%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    32% 57%,
+    2% 35%,
+    39% 35%
+  );
+}
 
-  .product_card:hover {
-    transform: scale(1.01);
-  }
-  
+.product_card:hover {
+  transform: scale(1.01);
+}

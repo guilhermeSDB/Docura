@@ -19,9 +19,13 @@
 
         <section id="Items">
                 <span class="title-items">Nossas especialidades</span>
-                <div class="icone-mouse">
-                    <span id="icon-mouse" class="iconify" data-inline="false" data-icon="iconoir:mouse-scroll-wheel" style="color: #4d4d4d; font-size: 55px;"></span>   
-                </div>
+                <section id="section10" class="demo">
+                <a href="#thanks">
+                    <span>
+
+                    </span>
+                </a>
+                </section>
                  
             <div class="item1">
                 <img src="images/item1-img.svg" alt="">

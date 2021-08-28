@@ -3,7 +3,6 @@
 ?>
 
 <head>
-
 </head>
 <main>
         <section>
@@ -14,7 +13,7 @@
                 <div class="product_header cupcakes-header">
                     <h1 class="product_title">Cupcakes</h1>
                 </div>    
-                <div class="owl-carousel">
+                <div class="owl-carousel"> 
                     <?php foreach($cupcakes as $item): ?>
                         <form action="/Pages/produto.php" method="POST">
                             <div class="item"> 
@@ -125,13 +124,14 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
+    <script src="js/jquery.smoove.js" ></script> 
+
     <!-- iconify -->
     <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>    
 
-    <script type="text/javascript">
+    <script type="text/javascript" async>
         
-        //Enviar div no Formulario com method POST
-  
         //Slider JS
         $('.owl-carousel').owlCarousel({
             loop:false,
