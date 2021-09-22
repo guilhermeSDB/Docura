@@ -28,13 +28,13 @@ Tabela de conteúdos
 - [x] Arquivos CSS
 - [x] Arquivos JS
 - [x] Arquivos PHP - Arrays
-- [ ] Correção de Bugs
-- [ ] Correção de Layout
+- [x] Correção de Bugs
+- [x] Correção de Layout
 - [ ] Refatoramento HTML
 - [ ] Refatoramento CSS
 - [ ] Refatoramento JS
 - [ ] Refatoramento PHP
-- [ ] README Completo
+- [x] README Completo
 
 </h4>
 
