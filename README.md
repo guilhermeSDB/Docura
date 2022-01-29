@@ -30,10 +30,6 @@ Tabela de conteúdos
 - [x] Arquivos PHP - Arrays
 - [x] Correção de Bugs
 - [x] Correção de Layout
-- [ ] Refatoramento HTML
-- [ ] Refatoramento CSS
-- [ ] Refatoramento JS
-- [ ] Refatoramento PHP
 - [x] README Completo
 
 </h4>
@@ -74,7 +70,7 @@ Tabela de conteúdos
 [Xampp](https://www.apachefriends.org/pt_br/download.html) ou [VSCode](https://code.visualstudio.com/)
 
 
-### Utilizando Xampp 
+### Utilizando Xampp/HTDocs  
 
 Apos baixar,instalar e inicializar o Xampp:  
 1- Colocar o projeto na pasta xampp/htdocs/(Projeto Aqui).  
