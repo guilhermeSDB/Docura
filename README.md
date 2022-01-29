@@ -11,7 +11,7 @@ Tabela de conteúdos
    * [Imagens](#imagens)
    * [Como usar](#como-usar)
       * [Pre Requisitos](#pre-requisitos)
-      * [Xampp](#Utilizando-Xampp)
+      * [HTDocs](#Utilizando-htdocs)
       * [VSCode](#utilizando-vscode)
    * [Tecnologias](#tecnologias)
    * [Autor](#autor)
@@ -67,18 +67,17 @@ Tabela de conteúdos
 
 ### Pre-Requisitos
 
-[Xampp](https://www.apachefriends.org/pt_br/download.html) ou [VSCode](https://code.visualstudio.com/)
-
-
-### Utilizando Xampp/HTDocs  
-
+[Xampp](https://www.apachefriends.org/pt_br/download.html) e [VSCode](https://code.visualstudio.com/)
 Apos baixar,instalar e inicializar o Xampp:  
+
+### Utilizando-htdocs
+
 1- Colocar o projeto na pasta xampp/htdocs/(Projeto Aqui).  
 2- Digitar no browser http://localhost/Projeto/index.php/.
 
 ### Utilizando VSCode
 
-Para utilizar esse metodo é presciso que o PHP esteja nas variaveis de ambiente do Windows.
+Para utilizar esse metodo é presciso que o XAMPP esteja instalado e configurado e o PHP esteja nas variaveis de ambiente do Windows.
 
 1- Abra o projeto no VSCode.  
 2- Abra o terminal (CTRL+').  
